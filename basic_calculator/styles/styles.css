@@ -17,8 +17,9 @@
   border-radius: 5px;
   margin-top: 50px;
 }
+
 #result {
-  width: 100%; //400px container
+  width: 100%;
   padding: 10px;
   font-size: 24px;
   border: none;
@@ -42,6 +43,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 button:hover {
   background-color: #ddd;
 }
@@ -61,11 +63,14 @@ button:hover {
   background-color: #0074d9;
   color: #fff;
 }
+
 .equal {
   background-color: #01ff70;
   grid-row: span 3;
 }
 
 .zero {
-    grid-column: span 2;
+  grid-column: span 2;
 }
+
+/*# sourceMappingURL=styles.css.map */
