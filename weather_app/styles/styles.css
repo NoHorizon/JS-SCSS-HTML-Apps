@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+#homepage_link {
+  text-align: center;
+}
+
 .container {
   background-color: #ffffff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
