@@ -1,0 +1,36 @@
+/* Basic styles for layout and appearance */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.currencies {
+  display: flex;
+  justify-content: space-around;
+}
+
+.currency-box {
+  width: 30%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
+/*# sourceMappingURL=styles.css.map */

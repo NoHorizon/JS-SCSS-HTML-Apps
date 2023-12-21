@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Budget App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Personal Budget App</h1>
+    </header>
+    <main>
+      <section class="currencies">
+        <h2>Currencies</h2>
+        <div class="currency-box" id="usd">
+          <h3>USD</h3>
+          <!-- USD content -->
+        </div>
+        <div class="currency-box" id="eur">
+          <h3>EUR</h3>
+          <!-- EUR content -->
+        </div>
+        <div class="currency-box" id="gbp">
+          <h3>GBP</h3>
+          <!-- GBP content -->
+        </div>
+      </section>
+    </main>
+    <div>
+      <label for="currency-select">Select Currency:</label>
+      <select id="currency-select">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+      </select>
+    </div>
+
+    <!-- Add divs for displaying balance and savings -->
+    <div class="currency-box" id="balance">
+      <h3>Balance</h3>
+      <!-- Balance content -->
+    </div>
+
+    <div class="currency-box" id="savings">
+      <h3>Savings</h3>
+      <!-- Savings content -->
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
