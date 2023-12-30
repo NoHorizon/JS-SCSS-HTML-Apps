@@ -1,4 +1,4 @@
-Just for fun WeatherApp
+Just for fun
 
 Hosted here: https://js-apps-nohorizon.vercel.app/
 
